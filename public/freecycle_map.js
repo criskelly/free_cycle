@@ -121,7 +121,7 @@ function geoLoop() {
                 setInterval(codeAddress(data[i].location, data[i].subject), 500);
 
             }
-	    };
+	    }
     },
 	type: "GET",
 	context: this

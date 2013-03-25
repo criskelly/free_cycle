@@ -8,10 +8,24 @@
  * For information on creating your an FCM in your area, contact {...}
 */
 
+/* FONTS STYLES ============================== */
+
+@font-face {
+font-family: Aaargh;
+src: url('Aaargh.ttf');
+}
+h3 {
+  text-align: center;
+
+}
+
 /* LAYOUT STYLES ============================== */
 
 header a, h1, section, aside, #logo {
   float: left;
+}
+h1, h2, h3, p, a {
+  font-family: Aaargh;
 }
 
 /* HEADER STYLES ============================== */
@@ -20,7 +34,7 @@ header {
   margin: 10px 0 0 25px;
 }
 h1 {
-  margin: 25px 0 80px 50px;
+  margin: 25px 0 50px 50px;
   color: green;
 }
 
@@ -46,33 +60,36 @@ h2 {
 
 aside {
   width: 30%;
-  padding-top: 18px;
+  padding-top: 8px;
 }
+
 
 /* FILTER FORM STYLES ================================= */
 
-legend {
-  color: green;
-  font-size: 2.5em;
+aside #form-title {
+  font-size: 2em;
 }
 
 /* POST-LIST SPECIFIC STYLES ====================
   (tabs styles are in the tabs.css file) ======= */
 
 .display-list {
-  background: green;
-  padding: 0 7px 7px;
-  height: 380px;
+  height: 417px;
   overflow: auto;
-  box-shadow: inset 0 5px 7px #333;
+}
+#content ul {
+  margin: 0 0 0 10px;
 }
 .display-list a {
   padding: 5px 0;
-
 }
-h3 {
-  text-align: center;
-  color: #fff;
+.display-list li {
+  margin-bottom: 5px;
+}
+.display-list h3 {
+  color: green;
+  border-top: 1px solid;
+  padding-top: 10px;
 }
 .posts {
   clear: both;
@@ -104,6 +121,11 @@ h3 {
 footer {
   clear: both;
   text-align: center;
-  color: #999;
+  height: 150px;
 }
+.freecycle-logo {
+  padding-top: 30px;
+}
+
+
 

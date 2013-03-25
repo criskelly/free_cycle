@@ -13,15 +13,16 @@
 
 #tabs a {
   position: relative;
-  background: #CCC;
+  background: #fff;
   /* background-image: linear-gradient(to bottom, #fff, #CCC); */
   padding: .7em 2em;
   float: left;
   text-decoration: none;
-  color: #444;
+  color: green;
   /* text-shadow: 0 1px 0 rgba(255,255,255,.8); */
   border-radius: 5px 0 0 0;
   /* box-shadow: 0 2px 2px rgba(0,0,0,.4); */
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 #tabs a:hover,
@@ -43,7 +44,7 @@
   right: -.5em;
   bottom: 0;
   width: 1em;
-  background: #CCC;
+  background: #fff;
   background-image: linear-gradient(to bottom, #fff, #ddd);
   /* box-shadow: 2px 2px 2px rgba(0,0,0,.4);*/
   transform: skew(10deg);
@@ -52,23 +53,24 @@
 
 #tabs #current a,
 #tabs #current a::after {
-  background: #fff;
-  color: #444;
+  background: #e5e5e5;
+  color: green;
   font-weight: 600;
   z-index: 3;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 #content {
-    background: #fff;
-    color: #444;
+    background: #e5e5e5;
+    color: green;
     font-size: 1.2em;
     padding: 1em 0 0;
-    height: 265px;
+    height: 400px;
+    overflow: auto;
     position: relative;
     z-index: 2;
     border-radius: 0 5px 5px 5px;
     /* box-shadow: 0 -2px 3px -2px rgba(0, 0, 0, .5);*/
-    overflow: auto;
 }
 
 #content ul {
