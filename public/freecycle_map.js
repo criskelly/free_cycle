@@ -57,7 +57,7 @@ function codeAddress(address, infoWin) {
                 maxWidth: 300
             });
             google.maps.event.addListener(marker, "click", function() {
-                if (currentPopup !== null) {
+                if (currentPopup != null) {
                     currentPopup.close();
                     currentPopup = null;
                 }
@@ -119,7 +119,7 @@ function geoLoop() {
 	    for (var i = 0; i < data.length; i++) {
 		    if (typeof data[i].location === 'string') {
                 setInterval(codeAddress(data[i].location, data[i].subject), 500);
-
+                console.log(data[i]);
             }
 	    }
     },
