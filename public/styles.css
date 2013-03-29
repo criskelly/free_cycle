@@ -21,7 +21,7 @@ h3 {
 
 /* LAYOUT STYLES ============================== */
 
-header a, h1, section, aside, #logo {
+header a, h1, section, aside, #logo, #icons, #icons img {
   float: left;
 }
 h1, h2, h3, p, a {
@@ -36,6 +36,12 @@ header {
 h1 {
   margin: 25px 0 50px 50px;
   color: green;
+}
+#icons {
+  margin: 0 0 0 135px;
+}
+#icons img {
+  margin-right: 15px;
 }
 
 /* MAIN SECTION STYLES ========================= */
